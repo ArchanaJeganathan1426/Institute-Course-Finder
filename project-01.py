@@ -4,7 +4,7 @@ import mysql.connector
 
 
 def connect_db():
-    return mysql.connector.connect(host="localhost",user="root",password="pass123",database="institute_course_finder")
+    return mysql.connector.connect(host="localhost",user="root",password="password",database="institute_course_finder")
 
 root = tk.Tk()
 root.title("Institute & Course Finder")
